@@ -6,6 +6,7 @@ import Maps from './homeComponent/maps';
 import Inscription from './Verifcation/InscriptionPage';
 import Connection from './Verifcation/ConnectionPage';
 import Person from './Verifcation/infoPersonal';
+import Preference from './Verifcation/preferencePage';
 import MyTabs from './tabsComponent';
 
 
@@ -25,6 +26,7 @@ export default function MyStack() {
             <Stack.Screen name="Connect" component={Connection} />
             <Stack.Screen name="Inscrip" component={Inscription} />
             <Stack.Screen name="Person" component={Person} />
+            <Stack.Screen name="Prefer" component={Preference} />
         </Stack.Navigator>
     </NavigationContainer>
   );

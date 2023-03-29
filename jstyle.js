@@ -173,7 +173,13 @@ const styles = StyleSheet.create({
     contText:{
       width:windowWidth,
       paddingHorizontal:25,
-      marginBottom:25
+      marginBottom:5
+    },
+
+    contText2:{
+      width:windowWidth,
+      paddingHorizontal:25,
+      marginTop:25
     },
 
     codes:{
@@ -213,14 +219,51 @@ const styles = StyleSheet.create({
       alignItems:'center',
     },
     champ:{
-      width:'100%',
+      width:'90%',
       height:60,
       borderRadius:10,
-      marginVertical:12,
+      marginVertical:8,
       paddingLeft:25,
       backgroundColor:'white',
       borderColor:'white',
       borderWidth:2
+    },
+    contDate:{
+      width:windowWidth,
+      flexDirection:'colomn',
+      justifyContent:"space-evenly",
+      alignItems:'center'
+    },
+    champDate:{
+      width:'90%',
+      height:60,
+      borderRadius:10,
+      justifyContent:'center',
+      paddingLeft:25,
+      marginVertical:8,
+      backgroundColor:'white',
+      borderColor:'white',
+      borderWidth:2
+    },
+    date:{
+      borderWidth:2,
+      borderColor:"green",
+      width:"40%",
+      justifyContent:"center",
+      alignItems:"center",
+      height:60,
+      borderRadius:10
+    },
+    rise:{
+      width:"90%",
+      justifyContent:"center",
+      borderRadius:15,
+      height:150,
+      backgroundColor:"white"
+    },
+    scroll:{
+      windowWidth:"100%",
+      height:"100%"
     }
 });
 
