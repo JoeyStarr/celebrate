@@ -18,6 +18,12 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       paddingTop:30
     },
+    containn: {
+      flex: 1,
+      backgroundColor: 'white',
+      alignItems: 'center',
+      paddingTop:30
+    },
     containerStoryPage: {
         width:windowWidth,
         height:windowHeight
@@ -264,6 +270,39 @@ const styles = StyleSheet.create({
     scroll:{
       windowWidth:"100%",
       height:"100%"
+    },
+    containerIcon:{
+      flexDirection:"row",
+      width:windowWidth,
+      justifyContent:"space-between",
+      paddingHorizontal:20,
+      paddingVertical:10,
+      alignItems:"center"
+    },
+    Iconn:{
+      flexDirection:"row",
+      width:"30%",
+      justifyContent:"space-evenly",
+      alignItems:"center",
+    },
+    Ico:{
+      marginHorizontal:15,
+    },
+    mod:{
+      position:"absolute",
+      bottom:0,
+      width:"100%",
+      backgroundColor:"#E3DFFD",
+      borderRadius:25,
+      elevation:20,
+      height:"90%",
+      paddingVertical:20,
+      paddingHorizontal:30
+    },
+    relConteneur:{
+      width:windowWidth,
+      height:"100%",
+      backgroundColor:"#E3DFFD"
     }
 });
 

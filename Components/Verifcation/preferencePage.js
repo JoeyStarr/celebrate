@@ -183,7 +183,7 @@ const Preference = ({navigation}) => {
             </View>
 
             <View style={styles.contText}>
-                <Pressable style={styles.press} onPress={() => navigation.goBack()}>
+                <Pressable style={styles.press} onPress={() => navigation.navigate('Homepage')}>
                     <Text style={{color:'black',fontSize:18}}>Valider</Text>
                 </Pressable>
             </View>
