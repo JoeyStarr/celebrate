@@ -3,6 +3,7 @@ import styles from '../../jstyle';
 import { View, Text, TouchableOpacity, Image, StatusBar,Pressable, Button , Animated,Modal } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Graph from './graph';
+import ThreeD from './threeD';
 import { VictoryChart, VictoryNode, VictoryLabel, VictoryLink } from 'victory-native';
 import { LineChart, BarChart, PieChart } from 'react-native-chart-kit';
 import { Line, Circle } from 'react-native-svg';
@@ -31,7 +32,7 @@ const Home = ({}) => {
                 </View>
 
                 <View style={styles.relConteneur}>
-                    <Graph/>
+                    <ThreeD/>
                 </View>
 
                 <Modal

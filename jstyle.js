@@ -292,17 +292,17 @@ const styles = StyleSheet.create({
       position:"absolute",
       bottom:0,
       width:"100%",
-      backgroundColor:"#E3DFFD",
+      backgroundColor:"#ECF2FF",
       borderRadius:25,
       elevation:20,
       height:"90%",
-      paddingVertical:20,
+      paddingVertical:10,
       paddingHorizontal:30
     },
     relConteneur:{
       width:windowWidth,
       height:"100%",
-      backgroundColor:"#E3DFFD"
+      backgroundColor:"white"
     }
 });
 
